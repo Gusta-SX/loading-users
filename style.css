@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+body { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-size: 13px;
+}
+button {
+  height: 8%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background: #8459b4;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.loading-main {
+  height: 100vh;
+  width: 100%;
+  background-color: #6666669c;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.loading {
+  border: 12px solid #e5e5e5;
+  border-top-color: #8459b4;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  animation: is-rotating 1s infinite;
+}
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+button:hover {
+  transform: scale(1.02);
+}
+.list {
+  display: none;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+.list.ativo {
+  display: block;
+}
+thead {
+  background-color: #666666;
+}
+th {
+  color: white;
+}
+th,
+td {
+  text-align: start;
+  padding: 10px 26px 10px 26px;
+}
+td {
+  background-color: #f5f5f5;
+}
+a {
+  color: #8459b4;
+  cursor: pointer;
+}

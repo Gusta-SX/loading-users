@@ -3,6 +3,8 @@
 ## About
 Project developed to demonstrate the use of the **API REST** of user data and a **loading** that appears while this information is still being loaded. The loading was done and animated with **CSS** and **JS**.
 
+*API used: https://jsonplaceholder.typicode.com/users/*
+
 ## Start
 You can clone the repo:
 ```

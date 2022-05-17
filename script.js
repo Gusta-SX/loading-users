@@ -41,8 +41,11 @@ function fetchUsers() {
         });
 
         const btn = document.querySelector(".button");
+        const cont = document.querySelector('.cont');
         btn.disabled = true;
         btn.style.backgroundColor = '#bc9ede';
+        btn.style.marginBottom = '25px';
+        cont.style.display = 'block';
       });
   }
 }

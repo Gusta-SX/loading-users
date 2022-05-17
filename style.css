@@ -8,10 +8,19 @@ body {
   display: flex; 
   align-items: center; 
   justify-content: center; 
-  height: 100vh;
   flex-direction: column;
-  margin: 0;
   font-size: 13px;
+  margin: 0;
+  height: 100vh;
+}
+.cont {
+  display: inline-grid;
+  height: 90vh;
+  align-items: end;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
 }
 button {
   height: 8%;
@@ -54,7 +63,6 @@ button:hover {
 .list {
   display: none;
   border-collapse: collapse;
-  margin-top: 30px;
 }
 .list.ativo {
   display: block;
